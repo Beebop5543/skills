@@ -27,6 +27,7 @@ Many skills in this repo are open source (Apache 2.0). We've also included the d
 - [./skills](./skills): Skill examples for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills
 - [./spec](./spec): The Agent Skills specification
 - [./template](./template): Skill template
+- [./skills/engineering](./skills/engineering) and [./skills/productivity](./skills/productivity): Matt Pocock's engineering skills, vendored from [mattpocock/skills](https://github.com/mattpocock/skills) at `4ae2317` (plugin v1.3.2, MIT). Provenance and the license are in [third-party/mattpocock-skills](./third-party/mattpocock-skills). In-progress, misc, and deprecated skills from that repo are not included. Install the `mattpocock-skills` plugin from this marketplace, then run `setup-matt-pocock-skills` once per repo you want them to operate on.
 
 # Try in Claude Code, Claude.ai, and the API
 
