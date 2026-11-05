@@ -1,0 +1,24 @@
+{
+  "name": "beebop-skills",
+  "owner": {
+    "name": "Beebop5543"
+  },
+  "metadata": {
+    "description": "Agent skills, with slash commands and a separate skills list."
+  },
+  "plugins": [
+    {
+      "name": "mattpocock-skills",
+      "source": ".",
+      "description": "Matt Pocock's engineering skills. Slash commands are the ones you type. The Skills tab holds the ones the agent can load on its own.",
+      "license": "MIT",
+      "keywords": [
+        "engineering",
+        "skills",
+        "tdd",
+        "code-review",
+        "grilling"
+      ]
+    }
+  ]
+}

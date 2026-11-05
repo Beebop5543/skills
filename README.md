@@ -27,7 +27,10 @@ Many skills in this repo are open source (Apache 2.0). We've also included the d
 - [./skills](./skills): Skill examples for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills
 - [./spec](./spec): The Agent Skills specification
 - [./template](./template): Skill template
-- [./skills/engineering](./skills/engineering) and [./skills/productivity](./skills/productivity): Matt Pocock's engineering skills, vendored from [mattpocock/skills](https://github.com/mattpocock/skills) at `4ae2317` (plugin v1.3.2, MIT). Provenance and the license are in [third-party/mattpocock-skills](./third-party/mattpocock-skills). In-progress, misc, and deprecated skills from that repo are not included. Install the `mattpocock-skills` plugin from this marketplace, then run `setup-matt-pocock-skills` once per repo you want them to operate on.
+- [./skills/engineering](./skills/engineering) and [./skills/productivity](./skills/productivity): Matt Pocock's engineering skills, vendored from [mattpocock/skills](https://github.com/mattpocock/skills) at `4ae2317` (plugin v1.3.2, MIT). Provenance and the license are in [third-party/mattpocock-skills](./third-party/mattpocock-skills). In-progress, misc, and deprecated skills from that repo are not included. They are split into two lists:
+  - **Slash commands** (Customize → Commands). Type these. The 16 files in [commands](./commands) are the ones only a person should start, such as `/grill-me`, `/to-spec`, `/implement`, and `/triage`.
+  - **Skills tab** (Customize → Skills). The 11 the agent can load on its own, linked from [.cursor/skills](./.cursor/skills): `tdd`, `code-review`, `grilling`, `diagnosing-bugs`, `domain-modeling`, `codebase-design`, `prototype`, `research`, `pr`, `wizard`, and `writing-for-agents`.
+  - Run `/setup-matt-pocock-skills` once per repo you want the engineering skills to operate on.
 
 # Try in Claude Code, Claude.ai, and the API
 
